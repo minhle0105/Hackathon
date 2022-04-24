@@ -246,6 +246,13 @@ html {
         margin-right: 0;
         max-width: 100% !important;
     }
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display:block;
+        height: auto;
+        max-width: 100%;
+    }
     .card:hover {
         transform: scale(1.01);
         box-shadow: #ffc32b 5px 5px 5px 10px !important;
@@ -264,6 +271,13 @@ html {
         margin-left: 0;
         margin-right: 0;
         max-width: 100% !important;
+    }
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display:block;
+        height: auto;
+        max-width: 100%;
     }
     .card {
         margin-bottom: 5px;
